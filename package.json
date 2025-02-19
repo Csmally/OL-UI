@@ -7,7 +7,7 @@
         "lint:es": "eslint",
         "lint:style": "stylelint 'packages/**/*.css'",
         "prepare": "husky",
-        "commit": "cz-git"
+        "commit": "git-cz"
     },
     "config": {
         "commitizen": {
