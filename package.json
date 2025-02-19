@@ -15,6 +15,14 @@
             "path": "node_modules/cz-git"
         }
     },
+    "lint-staged": {
+        "*.{ts,tsx,js,jsx}": [
+            "pnpm lint:es"
+        ],
+        "*.css": [
+            "pnpm lint:style"
+        ]
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
@@ -30,6 +38,7 @@
         "husky": "9.1.7",
         "stylelint": "16.14.1",
         "typescript": "5.7.3",
-        "typescript-eslint": "8.24.1"
+        "typescript-eslint": "8.24.1",
+        "lint-staged": "15.4.3"
     }
 }
