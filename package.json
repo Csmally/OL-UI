@@ -1,24 +1,33 @@
 {
-  "name": "ol-ui",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "lint:es": "eslint",
-    "lint:style": "stylelint 'packages/**/*.css'",
-    "prepare": "husky"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@eslint/js": "^9.20.0",
-    "eslint": "^9.20.1",
-    "typescript": "5.7.3",
-    "typescript-eslint": "8.24.1",
-    "globals": "15.15.0",
-    "eslint-plugin-react": "7.37.4",
-    "stylelint": "16.14.1",
-    "husky": "9.1.7"
-  }
+    "name": "ol-ui",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "lint:es": "eslint",
+        "lint:style": "stylelint 'packages/**/*.css'",
+        "prepare": "husky",
+        "commit": "cz-git"
+    },
+    "config": {
+        "commitizen": {
+            "path": "node_modules/cz-git"
+        }
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@eslint/js": "^9.20.0",
+        "eslint": "^9.20.1",
+        "typescript": "5.7.3",
+        "typescript-eslint": "8.24.1",
+        "globals": "15.15.0",
+        "eslint-plugin-react": "7.37.4",
+        "stylelint": "16.14.1",
+        "husky": "9.1.7",
+        "commitlint": "19.7.1",
+        "cz-git": "1.11.0",
+        "commitizen": "4.3.1"
+    }
 }
