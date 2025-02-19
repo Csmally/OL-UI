@@ -1,1 +1,2 @@
-sfsdf
+pnpm lint:es
+pnpm lint:style
