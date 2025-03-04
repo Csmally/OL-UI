@@ -9,7 +9,6 @@ export default [
     pluginReact.configs.flat.recommended,
     { languageOptions: { globals: globals.browser } },
     {
-        files: ["packages/**/*.{ts,tsx}"],
         rules: {
             "no-undef": "error",
             "no-unused-vars": "error",
