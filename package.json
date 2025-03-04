@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "packageManager": "pnpm@9.9.0",
     "scripts": {
+        "dev": "turbo dev",
         "lint": "pnpm eslint && pnpm stylelint 'packages/**/*.css'",
         "lint:es": "eslint",
         "lint:style": "stylelint 'packages/**/*.css'",
@@ -31,6 +33,7 @@
         "lint-staged": "15.4.3",
         "stylelint": "16.14.1",
         "typescript": "5.7.3",
-        "typescript-eslint": "8.24.1"
+        "typescript-eslint": "8.24.1",
+        "turbo": "2.4.2"
     }
 }

@@ -1,0 +1,22 @@
+{
+    "name": "@ol/ui",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "module": "dist/index.mjs",
+    "types": "src/index.d.mts",
+    "scripts": {
+        "dev": "tsup --watch",
+        "build": "tsup"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/react": "19.0.10",
+        "tsup": "8.3.6"
+    },
+    "peerDependencies": {
+        "react": "19.0.0"
+    }
+}
